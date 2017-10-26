@@ -1,0 +1,5 @@
+body,ul,li,h1,h2,h3,h4,h5,dl,dt,dd,p,form,button,input,table,header,nav,section,footer,address,figure{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:0 none;}
+:focus{outline: none;}

@@ -1,0 +1,5 @@
+body,ul,ol,li,dt,dl,dd,h1,h2,h3,h4,h5,p,table,form,input,button{margin: 0;padding: 0;}
+img{border:0 none;outline:none;}
+li{list-style:none;}
+/*:focus{outline: 0 none;}*/
+a{text-decoration:none;}

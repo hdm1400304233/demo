@@ -1,0 +1,121 @@
+body{background: url(../images/bg_01.png ) repeat-x;}
+figure{margin: 0;padding: 0;}
+.incubator{width:1204px;overflow: hidden;margin: 0 auto;}
+header{width:1204px;}
+header .logo{width:376px;height:57px;float:left;margin-top:23px;}
+header address{float:left;width:320px;margin:42px 0 0  503px;}
+header address a{float:left;font-size:14px;font-style: normal;color:#6c6e71;line-height:33px;}
+header address a:hover{color:#ed13a8;}
+header address .telephone{background: url(../images/incubator_09.png ) no-repeat 0 5px;padding-left:26px;}
+header address .user-center{margin-left:5px;}
+header address .exit{width:65px;height:33px;margin-left:20px;color:#fff;background: #f18b33;text-align: center;}
+header nav{float:left;width:1204px;height:70px;margin-top:24px;}
+header nav a{float:left;display:block;color:#f5f7fb;width:158px;height:56px;text-align: center;font-size:14px;padding-top:14px; transition:2s;}
+header nav .sy{width:96px;background: #eaae35;}
+header nav a em{position:absolute;float:right;display:block;width:0;height:0;border:6px solid #fff;border-left: 6px solid #3470d8;border-right: 6px solid #3470d8;border-bottom: none;margin:-10px 0 0 110px;transition:2s;}
+header nav a span{display: block;line-height:20px;}
+header nav a:hover{background: #eaae35;}
+header nav a:hover em{width:0;height:0;border:6px solid #fff;border-left: 6px solid #eaae35;border-right: 6px solid #eaae35;border-bottom: none;}
+
+section{width:1204px;overflow: hidden;}
+section figure{width:1204px;margin-top:36px;}
+section figure{margin-left:2px;width:1200px;height:464px;}
+section .left{float:left;margin-top:18px;width:750px;overflow: hidden;}
+section .left .news{width:750px;overflow: hidden;}
+section .left .news .menu{width:750px;height:50px;border-bottom: 1px solid #ccc;}
+section .left .news .menu li{float:left;width:85px;height:50px;line-height:50px;margin:0 36px 0 0 ;font-size:14px;font-weight:bold;padding-left:2px;}
+section .left .news .menu .active em{position:absolute;width:87px;height:5px;background: url(../images/news-border_03.png ) no-repeat;margin:48px 0 0 -59px;}
+section .left .news .content{width:750px;overflow: hidden;margin-top:20px;}
+section .left .news .content figure {margin:0;padding:0;width:280px;height:204px;float:left;}
+section .left .news .content figure .news-pic{width:280px;height:160px;transition:3s;}
+section .left .news .content figure .news-pic:hover{-webkit-transform:scale(1.2);}
+section .left .news .content figure p{width:275px;padding-left:5px;line-height: 44px;color:#222;font-size:12px;}
+section .left .news .content .every-news{width:448px;float:left;margin-left:21px;}
+section .left .news .content .every-news li{width:448px;float:left;line-height: 30px;}
+section .left .news .content .every-news li em{float:left;width:4px;height:4px;background: #3e3e3e;margin-top:15px;}
+section .left .news .content .every-news li a{margin-left:8px;font-size:12px;color:#3e3e3e;}
+section .left .news .content .every-news li a:hover{color:#0723b3;}
+section .left .news .content span{float:left;display:block;width:750px;overflow: hidden;margin-top:10px;}
+section .left .news .content span a{float:left;width:150px;height:60px;margin-right:27px;text-align:center;background: #dceff6;border:1px solid #b5cde2;border-radius:5px;line-height:60px;color:#2f64c0;}
+section .left .news .content span a:hover{color:#0ff50a;}
+
+section .left .park-tour {clear:both;width:750px;overflow: hidden;}
+section .left .park-tour .park-left{width:440px;float:left;}
+section .left .park-tour .park-left h4{width:439px;line-height:50px;border-bottom: 1px solid #ccc;font-size:14px;}
+section .left .park-tour .park-left .pic-top{width:440px;margin-top:20px;}
+section .left .park-tour .park-left .pic-top figure{width:440px;height:230px;padding: 0;margin: 0;}
+section .left .park-tour .park-left .pic-top figure img{float:left;transition:2s;}
+section .left .park-tour .park-left .pic-top figure img:hover{transform:scale(1.3);}
+section .left .park-tour .park-left .pic-top figure .park-pic1{width:295px;height:230px;}
+section .left .park-tour .park-left .pic-top figure .park-pic2{margin-left:15px;width:130px;height:108px;}
+section .left .park-tour .park-left .pic-top figure .park-pic3{margin:15px 0 0 15px;width:130px;height:108px;}
+section .left .park-tour .park-left .pic-bottom{width:440px;margin-top:15px;}
+section .left .park-tour .park-left .pic-bottom figure{width:440px;height:130px;padding: 0;margin: 0;}
+section .left .park-tour .park-left .pic-bottom figure img{float:left;margin-left:15px;width:130px;height:108px;transition:2s;}
+section .left .park-tour .park-left .pic-bottom figure img:hover{transform:scale(1.3);}
+section .left .park-tour .park-left .pic-bottom figure .park-pic4{width:150px;margin-left:0;}
+section .left .park-tour .park-right{float:left;width:295px;margin:25px 0 0 15px;background:#f4f4f4;overflow: hidden;}
+section .left .park-tour .park-right h5{padding-left:14px;width:281px;line-height:60px;color:#222;font-size:16px;}
+section .left .park-tour .park-right .introduce{width:280px;padding-left:15px;line-height:30px;color:#666;font-size:14px;}
+section .left .park-tour .park-right a{display:block;margin:8px 0 10px 175px;width:80px;line-height:30px;color:#d51f26;font-size:14px;}
+
+section .right{float:left;width:400px;margin-left:50px;overflow: hidden;}
+section .right .park-activities{width:400px;overflow: hidden;margin-top:18px;}
+section .right .park-activities h4{width:400px;line-height:50px;border-bottom: 1px solid #ccc;font-size:14px;}
+section .right .park-activities h4 span{color:#b0b0b0;margin-left:2px;}
+section .right .park-activities .con{margin-top:23px;}
+section .right .park-activities .con figure{float:left;width:110px;height:90px;margin:0;padding: 0;}
+section .right .park-activities .con figure img{width:110px;height:90px;transition:2s;}
+section .right .park-activities .con figure img:hover{-webkit-transform:scale(1.5);}
+section .right .park-activities .con .content{float:left;width:272px;margin:0 0 0 16px;}
+section .right .park-activities .con .content h5{width:272px;line-height:20px;color:#3e3e3e;font-size:14px;margin-bottom:6px;}
+section .right .park-activities .con .content p{width:272px;color:#999;line-height:20px;font-size:14px;}
+section .right .park-activities .con2{clear:both;float:left;margin-top:23px;}
+section .right .park-activities .con3{clear:both;float:left;margin-top:23px;}
+
+section .right .module{clear:both;margin-top:26px;}
+section .right .module h4{width:400px;line-height:50px;border-bottom: 1px solid #ccc;font-size:14px;}
+section .right .module h4 span{color:#b0b0b0;margin-left:2px;}
+section .right .module ul{width:400px;overflow: hidden;}
+section .right .module ul li{float:left;width:133px;}
+section .right .module ul li figure{width:133px;height:130px;overflow: hidden;text-align:center;padding-top: 20px;margin: 0;}
+section .right .module ul li figure img{transition:2s;}
+section .right .module ul li figure img:hover{
+    -webkit-transform:rotate(60deg);
+    -webkit-transform:rotate(60deg) ;
+    -moz-transform:rotate(60deg) ;
+    -ms-transform:rotate(360deg) ;
+    -o-transform:rotate(360deg) ;
+    transform: rotate(360deg);}
+section .right .module ul li figure span{display:block;width:133px;line-height:40px;font-size:14px;font-style:normal;color:#222;}
+
+section .corporate{clear:both;margin-top:18px;width:1200px;overflow: hidden;}
+section .corporate h4{width:1200px;line-height:50px;border-bottom: 1px solid #ccc;font-size:14px;}
+section .corporate h4 span{color:#b0b0b0;margin-left:2px;}
+section .corporate ul{width:1200px;overflow: hidden;}
+section .corporate ul li{width:200px;float:left;margin:20px 0 0 33px;}
+section .corporate ul li figure{width:200px;height:310px;margin: 0;padding: 0;}
+section .corporate ul li figure img{width:200px;height:200;transition:2s;-webkit-transform-style:preserve-3d;-webkit-perspective:100px;transition:2s;}
+section .corporate ul li figure img:hover{-webkit-transform:rotateY(180deg);}
+section .corporate ul li figure span{color:#222;width:200px;display: block;line-height:30px;font-size:14px;}
+section .corporate ul li figure .service-name{width:200px;height:280;line-height:52px;border-bottom:1px dashed #ccc;font-size:16px;}
+section .corporate ul li figure span em{color:#ff5a00;font-style:normal;}
+section .corporate ul li figure b{color:#999;font-weight:normal;line-height: 20px;font-size:12px;}
+
+footer{width:1204px;clear:both;margin-top:18px;}
+footer  ul{width:840px;overflow: hidden;margin: 0 auto;}
+footer  ul li{width:90px;float:left;line-height: 41px;}
+footer  ul li a{font-size: 14px;color:#f5f7fb;margin-right:19px;}
+footer  ul .about a{margin-right:0;}
+footer  ul li a:hover{text-decoration: underline;color:#cfc51f;}
+footer address{width:520px;float:left;}
+footer address p{color:#666;line-height:20px;font-size:12px;font-style: normal;}
+footer address p span{margin-left:33px;}
+footer figure{width:76px;height:77px;float:left;margin-left:572px;padding: 0;}
+footer figure .code{width:76px;height:77px;transition:2s;}
+footer figure .code:hover{transform:scale(1.5);}
+
+
+
+
+

@@ -1,0 +1,134 @@
+body,h1,h2,h3,h4,h5,form,table,button,p,input,ul,li{margin: 0;padding: 0;}
+img{border: 0 none ;}
+a{text-decoration: none;}
+:focus{outline:0  none;}
+li{list-style: none;}
+body{background: url(../images/bg_01.png) repeat-x;}
+.sprit{width:50px;height:355px;background: url(../images/sprit_01.png) no-repeat;}
+ .more{float:left;width:44px;height:13px;background-position:-2px -335px;}
+.center-logo{text-align:center;float:left;width:80px;height:54px;background: url(../images/cainiao_55.png) no-repeat;line-height:36px;color:#fff;font-size:14px;}
+.zi{float:left;height:36px;line-height:36px;color:#787878;font-size:12px;}
+.cainiao{width:984px;overflow: hidden;margin: 0 auto;}
+.cn-header{width:980px;margin-left:2px;background: url(../images/bird_02.png) no-repeat;height:98px;}
+.cn-header .logo{float:left;width:376px;height:41px;margin: 30px 0 0 10px;}
+.cn-header  ul{float:left;width:174px;height:15px;margin: 21px  0 0 376px;}
+.cn-header  ul li{float:left;height:13px;line-height:12px;}
+.cn-header  ul .china{width:70px;}
+.cn-header  ul .china .chinapic{float:left;width:19px;height:13px;background-position:-2px -3px;margin-right:8px;}
+.cn-header  ul .s-line{width:1px;}
+.cn-header  ul .english{margin-left:6px;width:80px;}
+.cn-header  ul .english .englishpic{float:left;width:19px;height:13px;background-position:-2px -22px;margin-right:6px;}
+.cn-header  ul li a{color:#44b944;font-size:12px;}
+.cn-header  ul li a:hover{color:#18e5f7;}
+
+.cn-main{clear:both;width:984px;overflow: hidden;}
+.cn-main .menu{margin-top:6px;width:980px;height:41px;background: url(../images/bird_05.png) no-repeat;}
+.cn-main .menu li{float:left;line-height:41px;height:41px;text-align:center;width:108px;}
+.cn-main .menu li a{color:#f6fbf6;font-size:16px;}
+.cn-main .menu li a:hover{float:left;color:#f6fbf6;background:url(../images/menu-bg_03.png) no-repeat;position:absolute;margin:-6px 0 0 -50px;diplay:block;width:118px;height:47px;line-height:47px;}
+
+.cn-main .banner{clear:both;width:981px;height:336px;position: relative;}
+.cn-main .banner ul .current{opacity:1;filter:alpha(opacity=100)}
+.cn-main .banner ul li{overflow:hidden;position:absolute;z-index: 1;opacity:0;filter:alpha(opacity=0);}
+.cn-main .banner .b-left{z-index:6;display:none;top:50%;margin-left:2px;width:49px;height:50px;position:absolute;background: url(../images/bird_08.png) no-repeat;}
+.cn-main .banner .b-right{z-index:6;display:none;top:50%;margin-left:930px;width:49px;height:50px;position:absolute;background: url(../images/bird_10.png) no-repeat;}
+.cn-main .banner span{width:490px;height:336px;position:absolute;z-index:5;opacity:0;filter:alpha(opacity=0);}
+.cn-main .banner span.prev_bg{left:0;background:#000;}
+.cn-main .banner span.next_bg{right:0;background:#fff;}
+
+.cn-main .lg-share{width:983px;height:61px;background: url(../images/login-bg_06.png) no-repeat;overflow: hidden;position: relative;}
+.cn-main .lg-share .form1{float:left;margin:17px 0 0 16px;height:25px;}
+.cn-main .lg-share .form1 .loginpic{float:left;width:122px;height:25px;}
+.cn-main .lg-share .form1 .zhanghao{padding-left:8px;color:#565555;margin-left:12px;border:none;float:left;background: url(../images/cainiao_22.png) no-repeat; width:133px;height:24px;}
+.cn-main .lg-share .form1 .mima{border:none;margin-left:10px;float:left;background: url(../images/cainiao_24.png) no-repeat; width:141px;height:24px;}
+.cn-main .lg-share .form1 .login{border:none;margin-left:11px;float:left;background: url(../images/cainiao_26.png) no-repeat; width:45px;height:24px;}
+.cn-main .lg-share .form1 .zhuce{margin-left:14px;float:left; width:60px;height:24px;line-height:24px;}
+.cn-main .lg-share .form1 .zhuce a{font-size:14px;color:#4a4a4a;}
+.cn-main .lg-share .form1 .zhuce a:hover{color:#140fed;}
+
+.cn-main .lg-share .share{position:absolute;float: left;width:240px;height:16px;margin:23px 0 0 0;overflow: hidden;right:-220px;}
+.cn-main .lg-share .share .open{float:left;width:16px;height:16px;background-position:-3px -38px;}
+.cn-main .lg-share .share div.open{position: absolute;left:-60px;top:-208px;width: 200px;height: 200px;border: 4px solid #000;background-color: #fff;}
+.cn-main .lg-share .share .share-to{float:left;margin-left:8px;width:48px;height:16px;line-height:16px;color:#178c17;font-size:12px;font-weight:normal;}
+.cn-main .lg-share .share .qq{margin-left:11px;float:left;width:16px;height:16px;background-position:-3px -57px;}
+.cn-main .lg-share .share .weibo{margin-left:6px;float:left;width:16px;height:16px;background-position:-3px -78px;}
+.cn-main .lg-share .share .icon2{margin-left:6px;float:left;width:16px;height:16px;background-position:-3px -97px;}
+.cn-main .lg-share .share .people{margin-left:6px;float:left;width:16px;height:16px;background-position:-3px -117px;}
+.cn-main .lg-share .share .sina{margin-left:6px;float:left;width:16px;height:16px;background-position:-2px -138px;}
+.cn-main .lg-share .share .amout{text-align:center;float:left;margin-left:2px;background: url(../images/amout-bg_03.png) no-repeat;width:42px;height:12px;line-height:16px;font-size:12px;color:#454545;}
+
+
+.cn-main .main-center{clear:both;width:982px;overflow: hidden;margin-top:26px;}
+.cn-main .main-center .div1{margin:0 0 0 303px;display: none;width:230px;height:100px;background:#17b713;z-index:999;position:absolute;}
+.cn-main .main-center .div1 h2{padding-left:8px;float:left;width:50px;line-height:26px;color:#2e2828;font-size:12px;font-weight:normal;}
+.cn-main .main-center .div1 .em{margin-left:12px;}
+.cn-main .main-center .div1 input{margin-top:7px;float:left;height:20px;}
+.cn-main .main-center .div1 button{clear:both;margin:10px 0 0 100px;}
+.cn-main .main-center .introduce{float:left;width:303px;}
+.cn-main .main-center .company-hd{width:303px;height:54px;}
+.cn-main .main-center .company-hd .company{width:110px;margin-left:8px;}
+.cn-main .main-center .company-hd .company-more{margin:13px 0 0 40px;}
+.cn-main .main-center .content{width:303px;margin-top:7px;}
+.cn-main .main-center .content .food{float:left;width:128px;height:98px;border: 1px solid #e0e0e0;text-align:center;}
+.cn-main .main-center .content .food img{margin-top:4px;width:120px;height:90px;}
+.cn-main .main-center .content .right-character{margin-left:10px;float:left;width:160px;height:98px;line-height:24px;font-size:12px;color:#6c6c6c;}
+.cn-main .main-center .content .right-character .first-line{text-indent:14px;}
+.cn-main .main-center .content .bottom-character{clear:both;margin-top:6px;width:303px;line-height:24px;font-size:12px;color:#6c6c6c;}
+
+.cn-main .main-center .news{float:left;width:406px;background: url(../images/news-line_07.png) no-repeat;}
+.cn-main .main-center .news .news-hd{width:406px;height:54px;}
+.cn-main .main-center .news .news-hd .n-center{width:86px;margin-left:14px;}
+.cn-main .main-center .news .news-hd .news-more{margin:13px 0 0 162px;}
+.cn-main .main-center .news .news-content{width:376px;margin:14px 0 0 15px;}
+.cn-main .main-center .news .news-content .food{float:left;width:128px;height:98px;border: 1px solid #e0e0e0;text-align:center;}
+.cn-main .main-center .news .news-content .food img{margin-top:4px;width:120px;height:90px;}
+.cn-main .main-center .news .news-content .news-character{float:left;width:230px;margin:0 0 0 14px;}
+.cn-main .main-center .news .news-content .news-character .p1{line-height:22px;color:#50b540;font-size:12px;}
+.cn-main .main-center .news .news-content .news-character p{line-height:30px;color:#a8a8a8;font-size:12px;}
+.cn-main .main-center .news .news-content .news-character p em{line-height:30px;}
+.cn-main .main-center .news .news-content .news-character p em a{color:#50b540;font-size:12px;font-style:normal;}
+.cn-main .main-center .news .news-content .news-character p em a:hover{color:#f417d2;}
+.cn-main .main-center .news .news-content ul{clear:both;width:360px;margin:16px 0 0 14px;}
+.cn-main .main-center .news .news-content ul li{background:url(../images/cainiao_88.png) no-repeat 2px 15px;padding-left:13px;line-height:32px;float:left;}
+.cn-main .main-center .news .news-content ul li a{line-height:32px;color:#6c6c6c;font-size:12px;}
+.cn-main .main-center .news .news-content ul li a:hover{color:#d4f018;}
+.cn-main .main-center .news .news-content ul li .news1{color:#ababab;margin-left:82px;font-size:12px;}
+.cn-main .main-center .news .news-content ul li .news2{color:#ababab;margin-left:94px;font-size:12px;}
+
+.cn-main .main-center .link-us{float:left;width:270px;background:url(../images/news-line_07.png) no-repeat;}
+.cn-main .main-center .link-us .link-hd .contact-us{width:72px;margin-left:17px;}
+.cn-main .main-center .link-us ul{clear:both;width:250px;margin: 13px 0 0 14px;}
+.cn-main .main-center .link-us ul li{width:250px;margin-bottom:20px;height:16px;line-height:16px;color:#959595;font-size:12px;}
+
+.cn-main .show{width:980px;margin-left:2px;height:230px;position: relative;}
+.cn-main .show .show-hd{width:980px;height:28px;}
+.cn-main .show .show-hd .show-logo{float:left;width:99px;height:28px;}
+.cn-main .show .show-hd .double-line{margin:15px 0 0 18px;float:left;width:794px;height:3px;background: url(../images/cainiao_102.png) repeat-x;}
+.cn-main .show .to-left{float:left;width:25px;height:25px;background-position:-3px -273px;margin: 2px 0 0 8px;}
+.cn-main .show .to-right{float:left;width:25px;height:25px;background-position:-3px -304px;margin: 2px 0 0 5px;}
+
+.cn-main .show .produce{position:absolute;margin: 20px 0 0 0;white-space:nowrap; }
+.cn-main .show .produce  li{margin-left:19px;float:left;width:176px;background: url(../images/img-bg_11.png) no-repeat;}
+.cn-main .show .produce  li img{width:167px;height:128px;position: absolute;}
+.cn-main .show .produce  li a.first{width:167px;height:128px;margin:4px 0 0 4px;display:block;}
+.cn-main .show .produce  li span{display:block;color:#6c6c6c;text-align:center;line-height:50px;font-size:12px;width:176px;}
+
+.cn-footer{clear:both;width:980px;margin:90px 0 0 0;text-align:center;}
+.cn-footer span{margin-top:23px;line-height:12px;color:#fff;font-size:12px;}
+.cn-footer ul{width:680px;margin:18px 0 0 160px;margin-bottom:50px;}
+.cn-footer ul li{float:left;font-size:12px;color:#fff;line-height:12px;}
+.cn-footer ul .fax{margin-left:24px;}
+.cn-footer ul .website{margin-left:19px;}
+.cn-footer ul .e-mail{margin-left:25px;}
+
+/* for login*/
+
+.laugh_cn_loginbox{position: fixed;z-index: 9999;left: 45%;top: 45%;background: #f3f3f3;filter: alpha(opacity=70);opacity: .7;display: none;}
+.laugh_cn_loginbox h1{background: #999999;}
+.laugh_cn_loginbox em{width: 1em;display: inline-block;}
+.laugh_cn_loginbox strong{padding: 0 20px 0 50px;}
+.laugh_cn_loginbox input#close{float: right;line-height: 18px;margin: 0;}
+.laugh_cn_loginbox input{margin-right: 10px;}
+.laugh_cn_loginbox ul li{line-height: 20px;height: 25px;}
+
+#laugh_cn_block{position: fixed;width: 100%;height: 100%;z-index: 1000;background: #000000;display: none;filter: alpha(opacity=70);opacity: .7;}
